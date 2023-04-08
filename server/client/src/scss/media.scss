@@ -1,0 +1,62 @@
+@media screen and (max-width: 440px) {
+.menu{
+    padding: none;
+    margin: none;
+    #margin{
+        margin-left: 0%;
+    }
+    img{
+        display: none;
+    }
+}
+   }
+
+
+
+   
+@media screen and (max-width: 440px) {
+    .main{
+        #login-set{
+            margin-left: 0px;
+        }
+        .css-3zyw97{
+            width: 375px;
+        }
+        width: 90%;
+        display: block;
+        height: 85vh;
+    }
+    .image-main {
+        img {
+            width: 100%;
+        }}
+    .component-login {
+        padding: 0px;
+        #standard-basic {
+            width: 16rem;
+        }
+
+        button {
+            width: 16rem;
+        }
+        img{
+        margin-top: 2rem;
+        }
+    }
+    .toastes{
+        width: 200px;
+    }
+    #toastes{
+        width: 200px;
+
+    }
+    .Toastify__toast{
+    border-radius: 5px;
+    margin-top: 1rem;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    }
+}
