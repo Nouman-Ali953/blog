@@ -7,7 +7,7 @@ const Connect = async (URL) => {
       console.log(`Database successfully connected 👍`);
     })
     .catch((err) => {
-      console.log(err);
+      console.log(`Error while connecting to database`,err);
     });
 };
 export default Connect;

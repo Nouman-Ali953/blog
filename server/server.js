@@ -14,7 +14,6 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-// app.use(cors({credentials: true, origin: 'http://localhost:3000'}));
 app.use(cors());
 
 app.use(bodyParser.json({ extended: true }));
@@ -27,6 +26,6 @@ app.listen(port, () => {
   console.log(`Listening to the port ${port} ✈️`);
 });
 
-const URL =process.env.MONGODB_URL || `mongodb+srv://nauman:MernSitE@cluster0.jvrwfax.mongodb.net/?retryWrites=true&w=majority`;
+const URL =process.env.MONGODB_URL || `mongodb+srv://nauman:blogsite@blogsite.cmwpwxn.mongodb.net/test`;
 
 Connect(URL);
